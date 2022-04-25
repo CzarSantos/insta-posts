@@ -1,0 +1,144 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing:border-box;
+  font-family:'Ubuntu',sans-serif;
+}
+body{
+background: rgb(80,93,255);
+background: linear-gradient(98deg, rgba(80,93,255,1) 24%, rgba(180,12,162,1) 100%);
+}
+
+ img{
+  width: 100%;
+}
+
+
+.container{
+  background: #fff;
+  min-height: 100vh;
+  max-width: 400px; 
+  margin: 0 auto;
+  justify-content:center;
+  position:relative;
+}
+
+.menu{
+  background: #fff;
+  border-bottom: 1px solid #ccc;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+ 
+  max-width:400px;
+  width:100%;
+  padding: 0px 15px; 
+ 
+  position: fixed;
+  margin:auto;
+  z-index: 1;
+}
+
+.icon, .ic-1 , .ic-2, .points {
+  max-width: 25px;
+}
+.logo{
+  max-width: 110px;
+  margin-left: 25px;
+  margin-top:10px;
+
+}
+
+ 
+.right-icons{
+  display:flex;
+  gap: 10px;
+}
+
+.user{
+  max-width: 50px;
+  
+}
+.user img{
+  border-radius: 50%;
+}
+
+.box{
+  width: 100%;
+  min-height: 600px;
+  padding-top: 75px;
+}
+
+.image img{
+  width: 100%;
+  height: 500px;
+  object-fit:cover;
+}
+
+
+
+.top-post{
+  width:100%;
+  display:flex;
+  justify-content:space-between;
+  padding: 10px 15px;
+  align-items:center;
+  border-top: 1px solid #ccc;
+}
+
+.top-post-left{
+  display:flex;
+  gap: 20px;
+  align-items:center;
+}
+
+
+.icons-down-left-1, .icons-down-rigth-1{
+  max-width:25px;
+}
+
+.text-top h2{
+  font-size: 18px;
+  font-weight: 600;
+}
+.text-top p{
+  font-size: 14px;
+  font-weight: 200;
+}
+
+
+
+.all-down{
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  padding: 10px 15px;
+}
+
+.icons-down-left{
+   display: flex;
+  gap:15px;
+}
+
+.comments{
+  padding: 0px 15px 10px 15px;
+}
+.comments p{
+  display: block;
+  padding-bottom: 10px;
+}
+
+.comments p:nth-child(1),p:nth-child(3){
+  font-weight: bold;
+} 
+
+.comments p:nth-child(2){
+  color: #0B4E8B;
+} 
+.comments span{
+  font-weight: normal;
+}
+
+.b-1{
+  padding-top: 0px;
+}
