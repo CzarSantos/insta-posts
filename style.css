@@ -32,11 +32,11 @@ background: linear-gradient(98deg, rgba(80,93,255,1) 24%, rgba(180,12,162,1) 100
  
   max-width:400px;
   width:100%;
-  padding: 0px 15px; 
- 
+
+  padding: 0 15px;
   position: fixed;
   margin:auto;
-  z-index: 1;
+  z-index: 1000;
 }
 
 .icon, .ic-1 , .ic-2, .points {
